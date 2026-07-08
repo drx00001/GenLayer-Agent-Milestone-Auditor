@@ -1,0 +1,21 @@
+贡献类型:
+建造者 / Projects / 项目
+
+标题:
+GenLayer Agent Milestone Auditor
+
+备注/说明:
+这是一个 GenLayer AI 代理交付物里程碑审计项目。它不只是一个简单 demo，而是包含完整项目里程碑: AgentMilestoneAuditor 智能合约、前端参数生成器、本地测试、部署步骤、使用证据模板和 M1-M4 进度说明。
+
+合约用于买家和 AI 代理之间的交付验收: 买家定义项目要求和释放阈值，代理提交 evidence JSON、证据 hash 和确定性预评分，GenLayer validators 通过 AI 共识判断 accepted / revision / rejected / disputed，并输出 score、release_bps 和 reason。
+
+本次补充内容回应了之前的拒绝原因:
+1. 更深入的合约逻辑: 阈值校验、状态记录、提交计数、验收统计、证据 hash、AI 共识复核。
+2. 测试: tests/test_policy.py 可本地运行，覆盖完整交付、缺测试和薄 demo 三种情况。
+3. 集成: app/index.html 可生成 constructor args、submit_milestone 参数和 SHA-256 evidence hash。
+4. 部署/使用证据: docs/USAGE_EVIDENCE.md 提供 GenLayer Studio 部署和调用记录模板。
+5. 明确里程碑: docs/MILESTONES.md 写明 M1-M4 项目进度。
+
+GitHub 仓库链接:
+这里填你新建后的仓库地址，例如:
+https://github.com/drx00001/GenLayer-Agent-Milestone-Auditor
