@@ -1,0 +1,28 @@
+这个是全新项目文件夹: 02-GenLayer-Agent-Milestone-Auditor
+
+上传到 GitHub 时建议新建一个新仓库:
+GenLayer-Agent-Milestone-Auditor
+
+需要上传的内容:
+1. README.md
+2. contracts 文件夹
+3. app 文件夹
+4. tests 文件夹
+5. docs 文件夹
+
+GitHub 网页上传方法:
+1. 打开你的新仓库。
+2. 点 Add file。
+3. 点 Upload files。
+4. 把上面这些文件和文件夹拖进去。
+5. 点绿色 Commit changes。
+
+如果 GitHub 网页不能一次拖文件夹:
+先上传 README.md。
+然后地址栏分别打开:
+https://github.com/你的用户名/GenLayer-Agent-Milestone-Auditor/upload/main/contracts
+https://github.com/你的用户名/GenLayer-Agent-Milestone-Auditor/upload/main/app
+https://github.com/你的用户名/GenLayer-Agent-Milestone-Auditor/upload/main/tests
+https://github.com/你的用户名/GenLayer-Agent-Milestone-Auditor/upload/main/docs
+
+每个页面上传对应文件夹里面的文件。
